@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="project.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    
+</head>
+<body>
+    <nav class="nav1">
+        <div class="logo">
+            <img src="./logo1.jpg" alt=""><img src="logoname1.png"/>
+        </div>
+
+        <div class="menu downflex"><i class="fa-solid fa-bars"></i><div class="line"></div></div>
+        
+        <div class="search">
+            <input type="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div class="home downflex"><i class="fa-solid fa-house">
+
+        </i> </div>
+
+        <div class="cart downflex"><i class="fa-solid fa-cart-shopping"></i></div>
+        
+        <div class="account downflex" onclick="disp()"><i class="fa-solid fa-user"></i>
+            <div class="user">
+                <div class="login">LOGIN</div>
+                <div class="reg">REGISTER</div>
+                <div class="logout">LOGOUT</div>
+            </div>
+        </div>
+    </nav>
+    <nav class="nav2">
+        <div class="team">TEAM SPORTS</div>
+        <div class="racket">RACKET SPORTS</div>
+        <div class="other">OTHER SPORTS</div>
+        <div class="shoes">SPORTS SHOES</div>
+        <div class="brand">TOP BRANDS</div>
+    </nav>
+    <div class="banner">
+        <img src="./banner1.png" alt="" id="img">
+        <button class="p1"><i class="fa-solid fa-angle-left baneri" onclick="back()"></i></button>
+        <button class="p2"><i class="fa-solid fa-angle-right baneri" onclick="front()"></i></button>
+        <div class="dot">
+            <i class="fa-solid fa-circle banerdot" onclick="chg(0)"></i>
+            <i class="fa-regular fa-circle banerdot" onclick="chg(1)"></i>
+            <i class="fa-regular fa-circle banerdot" onclick="chg(2)"></i>
+            <i class="fa-regular fa-circle banerdot" onclick="chg(3)"></i>
+            <i class="fa-regular fa-circle banerdot" onclick="chg(4)"></i>
+
+        </div>
+    </div>
+    <div class="sportsname">
+        <div><div><img src="./sportsname/n1.jpg"></div><p>TENNIS</p></div>
+        <div><div><img src="./sportsname/n2.jpg"></div><p>CRICKET</p></div>
+        <div><div><img src="./sportsname/n3.jpg"></div><p>FOOTBALL</p></div>
+        <div><div><img src="./sportsname/n4.jpg"></div><p>BADMINTION</p></div>
+
+    </div>
+    <p class="cricket"><i class="fa-solid fa-splotch s3"></i> <i class="fa-solid fa-splotch s2"></i> <i class="fa-solid fa-splotch s1"></i> CRICKET <i class="fa-solid fa-splotch s1"></i> <i class="fa-solid fa-splotch s2"></i> <i class="fa-solid fa-splotch s3"></i></p><div class="product1"><div class="view">view all</div>  </div>
+    <p class="football"><i class="fa-solid fa-splotch s3"></i> <i class="fa-solid fa-splotch s2"></i> <i class="fa-solid fa-splotch s1"></i> FOOTBALL <i class="fa-solid fa-splotch s1"></i> <i class="fa-solid fa-splotch s2"></i> <i class="fa-solid fa-splotch s3"></i></p><div class="product2"> <div class="view">view all</div> </div>
+    <div class="baner2">
+        <img src="./2banner1.jpg"/>
+    </div>
+    <p class="tennis"><i class="fa-solid fa-splotch s3"></i> <i class="fa-solid fa-splotch s2"></i> <i class="fa-solid fa-splotch s1"></i> TENNIS <i class="fa-solid fa-splotch s1"></i> <i class="fa-solid fa-splotch s2"></i> <i class="fa-solid fa-splotch s3"></i></p><div class="product5">  <div class="view">view all</div></div>
+    <p class="bedminton"><i class="fa-solid fa-splotch s3"></i> <i class="fa-solid fa-splotch s2"></i> <i class="fa-solid fa-splotch s1"></i> BEDMINTON <i class="fa-solid fa-splotch s1"></i> <i class="fa-solid fa-splotch s2"></i> <i class="fa-solid fa-splotch s3"></i></p><div class="product6">  <div class="view">view all</div></div>
+    <p class="tshirt"><i class="fa-solid fa-splotch s3"></i> <i class="fa-solid fa-splotch s2"></i> <i class="fa-solid fa-splotch s1"></i> SPORTS SHIRT <i class="fa-solid fa-splotch s1"></i> <i class="fa-solid fa-splotch s2"></i> <i class="fa-solid fa-splotch s3"></i></p><div class="product3"> <div class="view">view all</div> </div>
+    <p class="shoe"><i class="fa-solid fa-splotch s3"></i> <i class="fa-solid fa-splotch s2"></i> <i class="fa-solid fa-splotch s1"></i> SPORTS SHOES <i class="fa-solid fa-splotch s1"></i> <i class="fa-solid fa-splotch s2"></i> <i class="fa-solid fa-splotch s3"></i></p><div class="product4">  <div class="view">view all</div></div>
+
+    
+    <div class="upfooter">
+        <i class="fa-solid fa-gift"></i>
+        <i class="fa-solid fa-book-open-reader"></i>
+        <i class="fa-solid fa-handshake"></i>
+        <i class="fa-solid fa-hand-holding-heart"></i>
+        <i class="fa-solid fa-truck-fast"></i>
+    </div>
+
+    <div class="foot2">
+        <div class="c1">
+            <p class="head">ABOUT</p>
+            <p>Contact Us</p>
+            <p>About Us</p>
+            <p>Careers</p>
+            <p>Press</p>
+            <p>Information</p>
+        </div>
+        <div class="c2">
+            <p class="head">HELP</p>
+            <p>Payments</p>
+            <p>Shipping</p>
+            <p>Returns</p>
+            <p>FAQ</p>
+            <p>Report</p>
+
+        </div>
+        <div class="c3">
+            <p class="head">CUNSUMER POLICY</p>
+            <p>Cancellation</p>
+            <p>Terms of Use</p>
+            <p>Security</p>
+            <p>Privacy</p>
+            <p>Sitemap</p>
+
+        </div>
+        <div class="c4">
+            <p class="head">SOCIAL</p>
+            <p>Facebook</p>
+            <p>Twitter</p>
+            <p>Youtube</p>
+            <p>Instgram</p>
+            <p>Linked</p>
+        </div>
+
+    </div>
+
+    <div class="patner">
+        <img src="./patner/p1.png"/>
+        <img src="./patner/p2.png"/>
+        <img src="./patner/p3.png"/>
+        <img src="./patner/p4.png"/>
+        <img src="./patner/p5.png"/>
+        <img src="./patner/p6.png"/>
+        <img src="./patner/p7.png"/>
+        <img src="./patner/p8.png"/>
+
+    </div>
+
+
+    <footer class="foot">
+        <p>&copy;copyright 2023 kyshoopy.com All rights reserved. Designed by RAAZEEV</p>
+    </footer>
+<script src="project.js"></script>
+</body>
+</html>

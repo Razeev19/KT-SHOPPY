@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav1{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-bottom: 1px solid goldenrod; */
+    box-shadow: 2px 2px 10px 2px goldenrod;  
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    
+}
+.search{
+    width: 30%;
+    height: 55%;
+    border-radius: 15px;
+}
+.search input{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: none;
+    padding-left: 5%;
+    background-color: rgb(240, 224, 186);
+    
+}
+.search i{
+    position: absolute;
+    right: 35%;
+    top:38%;
+    color:goldenrod;
+}
+.logo{
+    width: 16%;
+    height: 80%;
+    display: flex;
+
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    font-size: 150%;
+    color: goldenrod;
+}
+.downflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: goldenrod;
+    font-size: 70%;
+    position: relative;
+}
+.downflex i{
+    font-size: 250%;
+    position: relative;
+}
+.downflex:hover{
+    color: rgb(233, 63, 182);
+    box-sizing: border-box;
+    padding: 0.5% 0%;
+    
+
+}
+.nav1 i:hover{
+    color: rgb(247, 24, 198);
+}
+.account i{
+    border: none;
+}
+.account .user{
+    position: absolute;
+    right: 2%;
+    top: 150%;
+    background-color: rgb(19, 203, 228);
+    color: rgb(226, 60, 110);
+    box-sizing: border-box;
+    padding: 40%;
+    border: none;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+
+    
+}
+.account .user div{
+    border-bottom: 1px solid white;
+    font-size: 180%;
+    box-sizing: border-box;
+    padding-top: 3%;
+}
+.account:hover .user{
+    display: flex;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5.4%;
+    background-color: rgb(226, 182, 71);
+    height: 5vh;
+    padding-top: 1%;
+    color: blue;
+}
+.nav2 div:hover{
+    color: rgb(224, 50, 117);
+    text-decoration: underline;
+}
+
+.banner{
+    width: 97%;
+    height: 80vh;
+    position: relative;
+    margin-top: 5vh;
+    margin-left: 2%;
+    border-radius: 20px;
+    
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.banner .p1{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    border: none;
+    background: transparent;
+    
+}
+.banner .p2{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    border: none;
+    background: transparent;
+}
+.baneri{
+    font-size: 210%;
+    color: green;
+   
+   
+}
+.baneri:hover{
+    width: 190%;
+    height: 230%;
+    border: 1px solid white;
+    background-color: rgb(171, 155, 13);
+    color: white;
+    border-radius: 10%;
+
+}
+.banner .dot{
+    position: absolute;
+    left: 45%;
+    bottom: 5%;
+}
+.banner .dot i{
+    color: rgb(145, 122, 3);
+}
+
+
+
+.product1item,.product2item,.product3item,.product4item{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    color: rgb(1, 46, 7);
+
+}
+.product1item img,.product2item img,.product3item img,.product4item img,.product5item img,.product6item img{
+    width: 100%;
+    height: 70%;
+}
+.product1item .price span,.product2item .price span,.product3item .price span,.product4item .price span,.product5item .price span,.product6item .price span{
+    color: red;
+}
+.product1,.product2,.product3,.product4,.product5,.product6{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+    height: 55vh;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 5px 2px;
+    box-sizing: border-box;
+    padding-top: 1%;
+    position: relative ;
+}
+.probtn button{
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 5px;
+    background-color: blue;
+    color: white  ;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+.baner2{
+    margin-top: 5vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+
+.cricket,.football,.tshirt,.shoe,.tennis,.bedminton{
+    width: 100%;
+    text-align: center;
+    background-color: goldenrod;
+    margin-top: 5vh;
+    box-sizing: border-box ;
+    padding: 1%;
+    color: rgb(23, 4, 107);
+    font-size: 150%;
+}
+.view{
+    position: absolute;
+    background-color: goldenrod;
+    color: white;
+    right: 0%;
+    top: 2%;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+
+.upfooter{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(173, 171, 171);
+    font-size: 200%;
+    margin-top: 5vh;
+}
+.s1{
+    font-size: 90%;
+    color: green;
+
+}
+.s2{
+    font-size: 70%;
+    color: white;
+}
+.s3{
+    font-size: 50%;
+    color: orangered;
+    
+}
+.sportsname{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+.sportsname div{
+    position: relative;
+}
+.sportsname div div{
+    width: 110%;
+    height: 100%;
+}
+.sportsname div div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+.sportsname div p{
+    color: white;
+    font-size: 200%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+.sportsname div div img:hover{
+    opacity: 0.8;
+}
+.foot{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 1.5%;
+    background-color: rgb(134, 101, 17);
+    color: white;
+    font-size: 115%;
+}
+.foot2{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 200%;
+    background-color: gainsboro;
+}
+.foot2 .head{
+    color: rgb(235, 5, 166);
+    text-decoration: underline;
+}
+.foot2 p{
+    color: rgb(185, 162, 28);
+}
+.patner{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gainsboro;
+    gap: 2%;
+}
+.patner img{
+    height: 80%;
+    border-radius: 10px;
+}
+
+
